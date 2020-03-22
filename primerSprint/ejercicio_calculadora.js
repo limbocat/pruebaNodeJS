@@ -44,3 +44,5 @@ console.log(calculadora(7,7,"/"));
 console.log(calculadora(10,100,"%"));
 
 console.log(Sumar(2,3));
+
+module.exports = calculadora;

@@ -42,3 +42,8 @@ let Perro = {
 }
 console.log(Perro);
 //console.log(Perro.padres.padre3[0].padre);
+
+//requiriendo la calculadora de 'ejercicio_calculadora.js'
+let calculadora = require('./ejercicio_calculadora');
+
+calculadora(5, 7, '+');
